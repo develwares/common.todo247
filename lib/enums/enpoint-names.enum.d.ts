@@ -1,4 +1,4 @@
-declare enum EnumGeneralMethods {
+declare enum GENERALMETHODS {
     CREATE = "create",
     FIND_BY_ID = "find-by-id",
     FIND_ALL = "find-all",
@@ -6,53 +6,53 @@ declare enum EnumGeneralMethods {
     REMOVE = "remove",
     EXISTS = "exists"
 }
-declare enum EnumUserMethods {
+declare enum USERMETHODS {
     FIND_BY_CELL_PHONE = "find-by-celphone"
 }
-declare enum EnumUserCodesMethods {
+declare enum CODESMETHODS {
     VALIDATE = "validate"
 }
-export declare const UserMethodsVPE: {
-    FIND_BY_CELL_PHONE: EnumUserMethods.FIND_BY_CELL_PHONE;
-    CREATE: EnumGeneralMethods.CREATE;
-    FIND_BY_ID: EnumGeneralMethods.FIND_BY_ID;
-    FIND_ALL: EnumGeneralMethods.FIND_ALL;
-    UPDATE: EnumGeneralMethods.UPDATE;
-    REMOVE: EnumGeneralMethods.REMOVE;
-    EXISTS: EnumGeneralMethods.EXISTS;
+export declare const USERMETHODS247: {
+    FIND_BY_CELL_PHONE: USERMETHODS.FIND_BY_CELL_PHONE;
+    CREATE: GENERALMETHODS.CREATE;
+    FIND_BY_ID: GENERALMETHODS.FIND_BY_ID;
+    FIND_ALL: GENERALMETHODS.FIND_ALL;
+    UPDATE: GENERALMETHODS.UPDATE;
+    REMOVE: GENERALMETHODS.REMOVE;
+    EXISTS: GENERALMETHODS.EXISTS;
 };
 export declare const UserCodesMethodsVPE: {
-    VALIDATE: EnumUserCodesMethods.VALIDATE;
-    FIND_BY_CELL_PHONE: EnumUserMethods.FIND_BY_CELL_PHONE;
-    CREATE: EnumGeneralMethods.CREATE;
-    FIND_BY_ID: EnumGeneralMethods.FIND_BY_ID;
-    FIND_ALL: EnumGeneralMethods.FIND_ALL;
-    UPDATE: EnumGeneralMethods.UPDATE;
-    REMOVE: EnumGeneralMethods.REMOVE;
-    EXISTS: EnumGeneralMethods.EXISTS;
+    VALIDATE: CODESMETHODS.VALIDATE;
+    FIND_BY_CELL_PHONE: USERMETHODS.FIND_BY_CELL_PHONE;
+    CREATE: GENERALMETHODS.CREATE;
+    FIND_BY_ID: GENERALMETHODS.FIND_BY_ID;
+    FIND_ALL: GENERALMETHODS.FIND_ALL;
+    UPDATE: GENERALMETHODS.UPDATE;
+    REMOVE: GENERALMETHODS.REMOVE;
+    EXISTS: GENERALMETHODS.EXISTS;
 };
 export declare const NotificationMethodsVPE: {
-    CREATE: EnumGeneralMethods.CREATE;
-    FIND_BY_ID: EnumGeneralMethods.FIND_BY_ID;
-    FIND_ALL: EnumGeneralMethods.FIND_ALL;
-    UPDATE: EnumGeneralMethods.UPDATE;
-    REMOVE: EnumGeneralMethods.REMOVE;
-    EXISTS: EnumGeneralMethods.EXISTS;
+    CREATE: GENERALMETHODS.CREATE;
+    FIND_BY_ID: GENERALMETHODS.FIND_BY_ID;
+    FIND_ALL: GENERALMETHODS.FIND_ALL;
+    UPDATE: GENERALMETHODS.UPDATE;
+    REMOVE: GENERALMETHODS.REMOVE;
+    EXISTS: GENERALMETHODS.EXISTS;
 };
 export declare const MessageMethodsVPE: {
-    CREATE: EnumGeneralMethods.CREATE;
-    FIND_BY_ID: EnumGeneralMethods.FIND_BY_ID;
-    FIND_ALL: EnumGeneralMethods.FIND_ALL;
-    UPDATE: EnumGeneralMethods.UPDATE;
-    REMOVE: EnumGeneralMethods.REMOVE;
-    EXISTS: EnumGeneralMethods.EXISTS;
+    CREATE: GENERALMETHODS.CREATE;
+    FIND_BY_ID: GENERALMETHODS.FIND_BY_ID;
+    FIND_ALL: GENERALMETHODS.FIND_ALL;
+    UPDATE: GENERALMETHODS.UPDATE;
+    REMOVE: GENERALMETHODS.REMOVE;
+    EXISTS: GENERALMETHODS.EXISTS;
 };
 export declare const EmailMethodsVPE: {
-    CREATE: EnumGeneralMethods.CREATE;
-    FIND_BY_ID: EnumGeneralMethods.FIND_BY_ID;
-    FIND_ALL: EnumGeneralMethods.FIND_ALL;
-    UPDATE: EnumGeneralMethods.UPDATE;
-    REMOVE: EnumGeneralMethods.REMOVE;
-    EXISTS: EnumGeneralMethods.EXISTS;
+    CREATE: GENERALMETHODS.CREATE;
+    FIND_BY_ID: GENERALMETHODS.FIND_BY_ID;
+    FIND_ALL: GENERALMETHODS.FIND_ALL;
+    UPDATE: GENERALMETHODS.UPDATE;
+    REMOVE: GENERALMETHODS.REMOVE;
+    EXISTS: GENERALMETHODS.EXISTS;
 };
 export {};
