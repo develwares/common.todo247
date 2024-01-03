@@ -1,6 +1,6 @@
-export declare enum ModulesVPE {
+export declare enum MODULES247 {
     USER = "user/",
-    USER_CODES = "user-codes/",
+    USER_CODES = "codes/",
     PROVIDER = "provider/",
     PROVIDER_DOCUMENTS = "provider-documents/",
     PROVIDER_SUB_CATEGORIES = "provider-subcategories/",

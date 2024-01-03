@@ -1,8 +1,8 @@
-export declare enum MicroserviceEnum {
+export declare enum MIDROSERVICES {
     NOTIFICATION = "NOTIFICATION_SERVICE",
     SECURITY = "SECURITY_SERVICE"
 }
-export declare enum MicroserviceQueueNameEnum {
+export declare enum MICROSERVICEQUEUENAME {
     NOTIFICATION = "notification_queue",
     SECURITY = "security_queue"
 }
