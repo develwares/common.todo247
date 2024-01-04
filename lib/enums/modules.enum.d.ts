@@ -1,5 +1,6 @@
 export declare enum MODULES247 {
     USER = "user/",
+    USER_PROFILE = "user-profile/",
     USER_CODES = "codes/",
     PROVIDER = "provider/",
     PROVIDER_DOCUMENTS = "provider-documents/",
