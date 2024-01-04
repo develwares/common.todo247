@@ -4,12 +4,12 @@ export type UserModel = {
     id: string;
     firstName: string;
     lastName: string;
-    email: string;
+    email?: string;
     countryCode: string;
     cellPhone: string;
     photo?: string;
     isActive: boolean;
-    role: ROLETYPE;
+    role?: ROLETYPE;
     language?: LANGUAGE;
     userProfiles?: UserProfileModel[];
     createdAt?: Date;
