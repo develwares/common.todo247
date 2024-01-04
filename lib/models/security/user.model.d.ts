@@ -6,13 +6,12 @@ export type UserModel = {
     lastName: string;
     email: string;
     countryCode: string;
-    phone: string;
-    password: string;
+    cellPhone: string;
     photo?: string;
     isActive: boolean;
     role: ROLETYPE;
     language?: LANGUAGE;
-    userProfile: UserProfileModel;
+    userProfiles?: UserProfileModel[];
     createdAt?: Date;
     updatedAt?: Date;
 };
