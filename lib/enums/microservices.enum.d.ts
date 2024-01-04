@@ -1,4 +1,4 @@
-export declare enum MIDROSERVICES {
+export declare enum MICROSERVICES {
     NOTIFICATION = "NOTIFICATION_SERVICE",
     SECURITY = "SECURITY_SERVICE"
 }
