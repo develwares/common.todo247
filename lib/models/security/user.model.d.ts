@@ -1,7 +1,7 @@
 import { LANGUAGE, ROLETYPE } from "../../enums";
 import { UserProfileModel } from "./user-profile.model";
 export type UserModel = {
-    id: string;
+    id?: string;
     firstName: string;
     lastName: string;
     email?: string;
