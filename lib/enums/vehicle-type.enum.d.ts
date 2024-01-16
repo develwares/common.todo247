@@ -1,4 +1,4 @@
-export declare enum VehicleTypeEnum {
+export declare enum VEHICLETYPE {
     MOTORCYCLE = "motorcycle",
     CAR = "car"
 }
