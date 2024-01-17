@@ -7,5 +7,8 @@ export declare enum MODULES247 {
     PROVIDER_SUB_CATEGORIES = "provider-subcategories/",
     EMAIL = "email/",
     MESSAGE = "message/",
-    NOTIFICATION = "notification/"
+    NOTIFICATION = "notification/",
+    VEHICLE = "vehicle/",
+    PROFILE_DOCUMENT = "profile-document/",
+    DOCUMENT_TYPE = "document-type/"
 }
