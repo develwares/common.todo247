@@ -1,4 +1,4 @@
-import { LANGUAGE, PROFILE, ROLETYPE, VEHICLETYPE } from "./";
+import { LANGUAGE, PROFILE, ROLETYPE, VEHICLETYPE } from './';
 export declare class VehicleModel {
     id?: string;
     userProfile?: UserProfileModel;
