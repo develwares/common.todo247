@@ -57,11 +57,7 @@
     "coverageDirectory": "./coverage",
     "testEnvironment": "node",
     "roots": [
-      "<rootDir>/src/",
-      "<rootDir>/libs/"
-    ],
-    "moduleNameMapper": {
-      "^@todo247/common/commons(|/.*)$": "<rootDir>/libs/commons/src/$1"
-    }
+      "<rootDir>/src/"
+    ]
   }
 }
