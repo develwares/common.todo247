@@ -10,5 +10,8 @@ export declare enum MODULES247 {
     NOTIFICATION = "notification/",
     VEHICLE = "vehicle/",
     PROFILE_DOCUMENT = "profile-document/",
-    DOCUMENT_TYPE = "document-type/"
+    DOCUMENT_TYPE = "document-type/",
+    TRANSPORT = "transport/",
+    TRANSPORT_LOCATION = "transport-location/",
+    TRANSPORT_QUALIFICATION = "transport-qualification/"
 }

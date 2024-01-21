@@ -1,8 +1,8 @@
 export declare enum CarrierStatusEnum {
-    AVAILBALE = "AVAILBALE",
-    ON_THE_WAY = "ON_THE_WAY",
-    ACCEPTED = "ACCEPTED",
-    ARRIVED = "ARRIVED",
-    CANCELLED = "CANCELLED",
-    COMPLETED = "COMPLETED"
+    AVAILBALE = "availbale",
+    ON_THE_WAY = "on_the_way",
+    ACCEPTED = "accepted",
+    ARRIVED = "arrived",
+    CANCELLED = "cancelled",
+    COMPLETED = "completed"
 }
