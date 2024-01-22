@@ -15,9 +15,8 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
-    "local-m": "curl http://localhost:3001/api/models -o src/models-security.ts && node src/bundle.js",
-    "stag-m": "curl https://dev-api.todo247.com/api/models -o src/models-security.ts && node src/bundle.js",
-    "prod-m": "curl https://app.api.todo247.com/api/models -o src/models-security.ts && node src/bundle.js"
+    "security-local": "curl http://localhost:3001/api/models -o src/models-security.ts",
+    "carrier-local": "curl http://localhost:3002/api/models -o src/models-carrier.ts"
   },
   "dependencies": {
     "reflect-metadata": "^0.1.13",
