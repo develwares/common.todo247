@@ -18,4 +18,5 @@ __exportStar(require("./lib/enums"), exports);
 __exportStar(require("./lib/interfaces"), exports);
 __exportStar(require("./lib/functions"), exports);
 __exportStar(require("./models-security"), exports);
+__exportStar(require("./models-carrier"), exports);
 //# sourceMappingURL=index.js.map
