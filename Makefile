@@ -12,3 +12,6 @@ push:
     find . -mindepth 1 -maxdepth 1 -type d ! -name '.git' -exec rm -rf {} + \
 	&& cp -r ./../libraries.todo247/common/dist/* . && \
 	git add . && git commit -m "$c" && git push;
+
+public:
+	npm publish --access public;
