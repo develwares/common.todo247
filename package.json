@@ -1,10 +1,22 @@
 {
-  "name": "@todo247/common",
+  "name": "todo247-common",
   "version": "1.0.0",
-  "description": "",
-  "author": "",
-  "private": true,
-  "license": "UNLICENSED",
+  "description": "common todo247",
+  "keywords": [
+    "todo247",
+    "@todo247",
+    "247",
+    "todo"
+  ],
+  "bugs": {
+    "url": "https://github.com/develwares/sdk.todo247",
+    "email": "cvisbal0724@gmail.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Develware",
+    "email": "cvisbal0724@gmail.com"
+  },
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "rm -rf ./tsconfig.build.tsbuildinfo && tsc -p tsconfig.build.json && cp package.json dist/package.json && cp tsconfig.build.json dist/tsconfig.build.json",
